@@ -3,8 +3,8 @@
 ;root{
     --cor-de-fundo: hsl(318, 76%, 57%);
     --verde: hsl(290, 73%, 53%);
-    --branco: rgba(255, 255, 255, 0.589);
-    --botao-ativo: hsla(177, 62%, 42%, 0.767);
+    --branco: rgb(255, 255, 255);
+    --botao-ativo: hsla(327, 92%, 52%, 0.767);
     --botao-inativo: #892ce075;
     --texto-fundo: rgba(124, 7, 160, 0.616);
 }
