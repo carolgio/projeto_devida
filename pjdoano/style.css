@@ -1,12 +1,12 @@
 @import url(https://fonts.google.com/share?selection.family=Fredoka:wght@300..700);
 
 ;root{
-    --cor-de-fundo: hsl(318, 76%, 57%);
-    --verde: hsl(290, 73%, 53%);
-    --branco: rgb(255, 255, 255);
-    --botao-ativo: hsla(327, 92%, 52%, 0.767);
-    --botao-inativo: #892ce075;
-    --texto-fundo: rgba(124, 7, 160, 0.616);
+    --cor-de-fundo: #284186;
+    --verde: #008cff;
+    --branco: #ffffff;
+    --botao-ativo: #342abb;
+    --botao-inativo: rgba(14, 7, 88, 0.5);
+    --texto-fundo: rgb(2, 2, 2);
 }
 
 body{
@@ -91,8 +91,23 @@ body{
 }
 
 .contador{
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
     text-align: center;
+    min-width: 100px;
+}
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+}
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
 }
 
 @media screen (min-width: 768px) {
