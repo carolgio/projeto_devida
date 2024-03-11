@@ -1,18 +1,18 @@
 @import url(https://fonts.google.com/share?selection.family=Fredoka:wght@300..700);
 
 ;root{
-    --cor-de-fundo: #284186;
-    --verde: #008cff;
+    --cor-de-fundo: #b71cdd75;
+    --verde: #c522e6;
     --branco: #ffffff;
-    --botao-ativo: #342abb;
-    --botao-inativo: rgba(14, 7, 88, 0.5);
+    --botao-ativo: #b30f0f;
+    --botao-inativo: rgba(214, 21, 69, 0.842);
     --texto-fundo: rgb(2, 2, 2);
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: 
+    font-family:
 }
 
 .conteudo-principal{
@@ -37,7 +37,7 @@ body{
 }
 
 .botao{
-    font-family: ;
+    font-family:
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
